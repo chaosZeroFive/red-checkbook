@@ -1,4 +1,4 @@
-//REVISED: This fIle has been changed from the original
+//REVISED: V0.2.0
 
 const express = require("express");
 const connectDB = require("./config/db");
