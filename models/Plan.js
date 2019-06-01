@@ -1,5 +1,3 @@
-//REVISED: This fIle has been changed from the original
-
 const mongoose = require("mongoose");
 
 const PlanSchema = mongoose.Schema({

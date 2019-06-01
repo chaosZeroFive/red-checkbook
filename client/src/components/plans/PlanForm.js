@@ -1,5 +1,3 @@
-//REVISED: V0.2.0
-
 import React, { useState, useContext, useEffect } from "react";
 import PlanContext from "../../context/plan/planContext";
 

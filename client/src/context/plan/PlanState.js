@@ -1,5 +1,3 @@
-//REVISED: This fIle has been changed from the original
-
 import React, { useReducer } from "react";
 import axios from "axios";
 import PlanContext from "./planContext";

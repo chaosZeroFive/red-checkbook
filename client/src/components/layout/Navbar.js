@@ -1,5 +1,3 @@
-//REVISED: This fIle has been changed from the original
-
 import React, { Fragment, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -58,7 +56,7 @@ Navbar.propTypes = {
 
 Navbar.defaultProps = {
   title: "Planning Toolkit",
-  icon: "fas fa-id-card-alt"
+  icon: "fas fa-chess-queen"
 };
 
 export default Navbar;

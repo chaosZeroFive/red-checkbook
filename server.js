@@ -1,5 +1,3 @@
-//REVISED: V0.2.0
-
 const express = require("express");
 const connectDB = require("./config/db");
 const path = require("path");

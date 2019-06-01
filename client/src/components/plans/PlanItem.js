@@ -1,5 +1,3 @@
-//REVISED: V0.2.0
-
 import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import PlanContext from "../../context/plan/planContext";

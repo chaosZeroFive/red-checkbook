@@ -1,4 +1,3 @@
-//REVISED: V0.2.0
 import React, { Fragment, useContext, useEffect } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import PlanItem from "./PlanItem";

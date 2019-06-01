@@ -1,5 +1,3 @@
-//REVISED: This fIle has been changed from the original
-
 import {
   GET_PLANS,
   ADD_PLAN,

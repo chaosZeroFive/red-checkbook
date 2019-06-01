@@ -1,5 +1,3 @@
-//REVISED: This fIle has been changed from the original
-
 import React, { useContext, useEffect } from "react";
 import Plans from "../plans/Plans";
 import PlanForm from "../plans/PlanForm";

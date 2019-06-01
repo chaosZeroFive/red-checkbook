@@ -1,5 +1,3 @@
-//REVISED: This fIle has been changed from the original
-
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
@@ -9,7 +7,6 @@ import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import Alerts from "./components/layout/Alerts";
 import PrivateRoute from "./components/routing/PrivateRoute";
-
 import PlanState from "./context/plan/PlanState";
 import AuthState from "./context/auth/AuthState";
 import AlertState from "./context/alert/AlertState";

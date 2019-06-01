@@ -1,10 +1,7 @@
-//REVISED: This fIle has been changed from the original
-
 const express = require("express");
 const router = express.Router();
 const auth = require("../middleware/auth");
 const { check, validationResult } = require("express-validator/check");
-
 const User = require("../models/User");
 const Plan = require("../models/Plan");
 
