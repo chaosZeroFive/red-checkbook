@@ -11,7 +11,7 @@ const PlanSchema = mongoose.Schema({
   },
   type: {
     type: String,
-    default: "Mission"
+    default: "Draft"
   },
   date: {
     type: Date,

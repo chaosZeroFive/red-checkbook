@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import PlanContext from "../../context/plan/planContext";
+import DropdownButton from "react-bootstrap/DropdownButton";
 
 const PlanForm = () => {
   const planContext = useContext(PlanContext);
@@ -50,7 +51,15 @@ const PlanForm = () => {
         value={name}
         onChange={onChange}
       />
-      <h5>Plan Type</h5>
+      <h4>Plan Type</h4>
+      <input
+        type="radio"
+        name="type"
+        value="DRAFT"
+        checked={type === "DRAFT"}
+        onChange={onChange}
+      />{" "}
+      Draft{" "}
       <input
         type="radio"
         name="type"

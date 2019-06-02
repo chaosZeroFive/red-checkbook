@@ -44,7 +44,6 @@ const PlanState = props => {
   };
 
   // Add Contact
-
   const addPlan = async plan => {
     const config = {
       headers: {
@@ -67,7 +66,6 @@ const PlanState = props => {
   };
 
   // Delete Plan
-
   const deletePlan = async id => {
     try {
       await axios.delete(`/api/plans/${id}`);
@@ -85,7 +83,6 @@ const PlanState = props => {
   };
 
   // Update Plan
-
   const updatePlan = async plan => {
     const config = {
       headers: {
@@ -109,13 +106,11 @@ const PlanState = props => {
   };
 
   // Clear Plans
-
   const clearPlans = () => {
     dispatch({ type: CLEAR_PLANS });
   };
 
   // Set Current Contact
-
   const setCurrent = plan => {
     dispatch({ type: SET_CURRENT, payload: plan });
   };
@@ -126,7 +121,6 @@ const PlanState = props => {
   };
 
   // Filter Plans
-
   const filterPlans = text => {
     dispatch({ type: FILTER_PLANS, payload: text });
   };

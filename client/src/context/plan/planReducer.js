@@ -62,7 +62,7 @@ export default (state, action) => {
         ...state,
         filtered: state.plans.filter(plan => {
           const regex = new RegExp(`${action.payload}`, "gi");
-          return plan.name.match(regex) || plan.email.match(regex);
+          return plan.name.match(regex) || plan.type.match(regex);
         })
       };
     case CLEAR_FILTER:

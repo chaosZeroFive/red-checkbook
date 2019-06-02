@@ -5,7 +5,7 @@ const PlanFilter = () => {
   const planContext = useContext(PlanContext);
   const text = useRef("");
 
-  const { filterPlans, clearFilter, filtered } = PlanContext;
+  const { filterPlans, clearFilter, filtered } = planContext;
 
   useEffect(() => {
     if (filtered === null) {
