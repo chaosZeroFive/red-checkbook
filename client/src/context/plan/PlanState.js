@@ -43,7 +43,7 @@ const PlanState = props => {
     }
   };
 
-  // Add Contact
+  // Add Plan
   const addPlan = async plan => {
     const config = {
       headers: {
@@ -110,7 +110,7 @@ const PlanState = props => {
     dispatch({ type: CLEAR_PLANS });
   };
 
-  // Set Current Contact
+  // Set Current Plan
   const setCurrent = plan => {
     dispatch({ type: SET_CURRENT, payload: plan });
   };

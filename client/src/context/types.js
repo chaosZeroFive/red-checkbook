@@ -18,3 +18,10 @@ export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
 export const LOGIN_FAIL = "LOGIN_FAIL";
 export const LOGOUT = "LOGOUT";
 export const CLEAR_ERRORS = "CLEAR_ERRORS";
+
+export const GET_ENEMY = "GET_ENEMY";
+export const ADD_ENEMY = "ADD_ENEMY";
+export const DELETE_ENEMY = "DELETE_ENEMY";
+export const UPDATE_ENEMY = "UPDATE_ENEMY";
+export const CLEAR_ENEMY = "CLEAR_ENEMY";
+export const ENEMY_ERROR = "ENEMY_ERROR";

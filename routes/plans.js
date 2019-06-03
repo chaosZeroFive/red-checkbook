@@ -5,7 +5,7 @@ const { check, validationResult } = require("express-validator/check");
 const User = require("../models/User");
 const Plan = require("../models/Plan");
 
-// @route 1   GET api/plans
+// @route     GET api/plans
 // @desc      Get all users plans
 // @access    Private
 router.get("/", auth, async (req, res) => {
@@ -20,7 +20,7 @@ router.get("/", auth, async (req, res) => {
   }
 });
 
-// @route 2   POST api/plans
+// @route     POST api/plans
 // @desc      Add new plan
 // @access    Private
 router.post(

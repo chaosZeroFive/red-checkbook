@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const EnEquipSchema = mongoose.Schema({
+  enemy: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "enemies"
+  }
   pers_officer: {
     type: Number
   },
